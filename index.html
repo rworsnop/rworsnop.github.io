@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Rob Worsnop</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type='text/javascript'>
+		function showNerdy() {
+		document.getElementById('nerdy').style.display = 'block';
+		document.getElementById('short').style.display = 'none';
+		}
+	</script> 	
+</head>
+<body>
+	<div class="mainPage">
+		<div style="float:right;">
+			<img alt="Rob Worsnop" src="robworsnop.jpeg"/>
+		</div>	
+		<h1>Rob Worsnop's page</h1>
+		<p>Not a great deal here&mdash;just my résumé, really. Here it is, in HTML and PDF formats:</p>
+		<ul>
+			<li><b><a href="resume.xml">HTML</a></b>  (for your browser)</li>
+			<li><b><a href="resume.pdf">PDF</a></b> (for your printer)</li>
+		</ul>
+		<div id="short">
+			<p>
+			By the way, the two versions of my résumé were generated from a single XML file. <a href="javascript:showNerdy()">Interested in the details?</a>  
+			</p>
+		</div>
+		<div id="nerdy" style="display:none;">
+			<h2>How the résumés were created</h2>
+			<p>
+			I've generally found the whole business of maintaining curricula vitae/résumés rather frustrating. When I want to add some details, I often feel like tinkering with 
+			the format, or slimming down previous jobs. This is always a royal pain. The fundamental issue here is that a résumé is a classic example of where you want to 
+			<a href="http://en.wikipedia.org/wiki/Separation_of_presentation_and_content">separate
+			content from presentation</a>&mdash;and not just to the extent made possible by <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>. 
+			The best way, in my view, to do this is	to store the content in XML format and the presentation details in 
+			<a href="http://en.wikipedia.org/wiki/Extensible_Stylesheet_Language">XSL</a>. This means I can easily change the content of my résumé without accidentally messing up the
+			format, and vice versa.
+			</p>
+			<p>
+			I found the <a href="http://xmlresume.sourceforge.net/">XML Résumé Library</a>. Although I decided not to use that project, I did adopt its 
+			<a href="http://xmlresume.sourceforge.net/dtd/resume.dtd">DTD</a>. I created my own XSL, which gives me complete control over formatting. For the HTML version of the résumé, I let
+			the browser perform the transformation on demand. If you "view source" on the HTML version, you'll just see the source XML. My XSL file is <a href="resume-html.xsl">resume-html.xsl</a>.
+			</p>
+			<p>
+			For the PDF version of the résumé, I generate the file offline using <a href="http://xmlgraphics.apache.org/fop">Apache FOP</a>. This also involves XML transformation. The difference is that,
+			instead of transforming to HTML, it transforms to <a href="http://en.wikipedia.org/wiki/XSL_Formatting_Objects">XSL-FO</a>. The XSL-FO is then used to generate the final PDF file. My XSL
+			file for transforming to XSL-FO	is <a href="resume-fo.xsl">resume-fo.xsl</a>.
+			</p>
+		</div>
+		
+
+	</div>
+
+<script src="http://static.freewebs.getclicky.com/56915390.js" type="text/javascript"></script>
+<noscript><div><img alt="Clicky" src="http://in.freewebs.getclicky.com/56915390-fwdb4.gif" /></div></noscript>
+</body>
+</html>

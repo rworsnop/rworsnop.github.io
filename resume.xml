@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet type="text/xsl" href="resume-html.xsl"?>
+<resume>
+	<header>
+		<name>
+			<firstname>Robert</firstname>
+			<lastname>Worsnop</lastname>
+		</name>
+		<address>
+			<street>4525 Sudbury Road</street>
+			<city>Atlanta</city>
+			<state>GA</state>
+			<zip>30360-2070</zip>
+		</address>
+		<contact>
+			<phone>(770) 936-8057</phone>
+			<email>rworsnop@gmail.com</email>
+		</contact>
+	</header>
+	
+	<objective>
+		<para>To continue working as a Java architect. I enjoy challenges that require strong software development skills and technical leadership.</para>
+	</objective>
+	
+	<history>
+		<job>
+			<jobtitle>Senior Software Architect</jobtitle>
+			<employer><link href="http://www.medquist.com">MedQuist, Inc</link></employer>
+			<location>
+			  <city>Norcross</city>
+			  <state>GA</state>
+			  <country>USA</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>April</month>
+						<year>2006</year>
+					</date>
+				</from>
+				<to>
+					<present/>
+				</to>
+			</period>
+			<description>
+				Worked with Java, JBoss, Hibernate, EJB, Spring, Oracle, ANTLR, Coherence, XML
+			</description>
+			<projects>
+				<project>DocQvoice&#8212;a voice capture system for medical transcription.</project>
+				<project>DocQment myWAY&#8212;a system that allows physicians to edit speech-recognized medical documents.</project>
+			</projects>
+			<achievements>
+			    <achievement>Produced roadmap for streamlining DocQvoice and merging with main document workflow system.</achievement>
+			    <achievement>Defined the middleware architecture for DocQment myWAY.</achievement>
+				<achievement>Oversaw and participated in the conversion of an "on-premise" version of DocQvoice to a clustered data center version that is required to process in excess of 100,000 
+						transcription jobs per day.</achievement>
+				<achievement>Delivered technical "lunch &amp; learn" presentations on unit testing, Spring, Acegi (now Spring Security), Contract-first web services, Hibernate, and Oracle Coherence.</achievement>
+				<achievement>Introduced new technologies to the organization; e.g., Spring.</achievement>
+				<achievement>Acted as a mentor to other members of the team.</achievement>
+				<achievement>Developed Hibernate-based framework that silos data by transparently modifiying criteria queries.</achievement>
+				<achievement>Developed framework that provides a clustered middle-layer equivalent of HTTP sessions.</achievement>
+				<achievement>Developed framework that creates the illusion of creating queryable entities on the fly.</achievement>
+				<achievement>Designed an automatic sign-on system, which uses digital signatures to allow trusted third-party applications to authenticate users without credentials.</achievement>
+				<achievement>Investigated and resolved production issues such as JVM crashes and memory leaks.</achievement>
+				<achievement>Interviewed candidates for development positions.</achievement>
+				<achievement>Took the initiative to create a wiki, which is now used as a company-wide knowledge base.</achievement>
+			</achievements>
+		  
+		</job>
+		<job>
+			<jobtitle>Senior Software Developer</jobtitle>
+			<employer><link href="http://www.iss.net">Internet Security Systems, Inc</link></employer>
+			<location>
+			  <city>Atlanta</city>
+			  <state>GA</state>
+			  <country>USA</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>October</month>
+						<year>2004</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>April</month>
+						<year>2006</year>
+					</date>
+				</to>
+			</period>
+			<description>
+				Worked with JBoss, Hibernate, EJB, Spring, MS SQL Server, RMI
+			</description>		
+			<projects>
+				<project>RealSecure SiteProtector&#8212;a three-tier JEE application responsible for monitoring security events.</project>
+			</projects>
+			<achievements>
+				<achievement>Led a team responsible for adding a permissions system to SiteProtector. 
+					As well as being a supervisory role, this involved the general design of the UI and the detailed design
+					of the server components.</achievement>	
+				<achievement>Introduced new technologies to the organization; e.g., JBoss, Hibernate.</achievement>
+				<achievement>Acted as a mentor to other members of the team.</achievement>
+				<achievement>Interviewed candidates for development positions.</achievement>
+				<achievement>Delivered technical presentations on JBoss, EJB 3.0, and the Java 5.0 concurrency APIs.</achievement>
+				<achievement>Contributed to the jTDS project. jTDS is an open-source JDBC driver. 
+					My contribution was to add SSL, which was required by Internet Security Systems.</achievement>
+				<achievement>Developed a framework, using JBoss AOP, for using Hibernate in a fat-client three-tier environment. The problem it solves is
+					that of lazy-loading over process boundaries.</achievement>
+			</achievements>
+		</job>
+		
+		<job>
+			<jobtitle>Technical Architect</jobtitle>
+			<employer><link href="http://www.s1.com">S1 Corporation, Inc</link></employer>
+			<location>
+			  <city>Atlanta</city>
+			  <state>GA</state>
+			  <country>USA</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>August</month>
+						<year>1997</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>October</month>
+						<year>2004</year>
+					</date>
+				</to>
+			</period>
+			<description>
+				Worked with Java, Java Web Start, WebLogic, WebSphere, DB2, XML, Servlets, EJBs, JSPs, Struts, RMI, SQL, C++, Fort&#233;
+			</description>		
+			<projects>
+				<project>Enterprise Teller&#8212;a three-tier JEE application used by bank tellers.</project>
+				<project>Architecture team&#8212;developed various frameworks to support application teams.</project>
+				<project>Virtual Investments&#8212;a web-based securities trading application.</project>
+			</projects>
+			<achievements>
+				<achievement>Developed a subsystem that allows EJBs to be acquired, and their methods invoked, via an HTTP tunnel.</achievement>
+				<achievement>Developed a store-and-forward subsystem that transparently buffers EJB calls when the server is unavailable.</achievement>
+				<achievement>Created a subsystem that allows peer-to-peer discovery and communication between thick clients.</achievement>
+				<achievement>Developed a provider framework to allow developers to plug in modules for password encryption. The architecture included out-of-the-box providers for salted SHA-1, salted MD5, and bigcrypt. The SHA-1 and MD5 providers were based on JCA.</achievement>	
+  				<achievement>Developed powerful and highly extensible authorization framework for the business layer of the product.</achievement>
+				<achievement>As a member of the architecture team, advised application teams and professional services on matters related to security.</achievement>
+				<achievement>Worked through many tough problems; for example, modifying a Java version of crypt so that its handling of invalid salts is compatible with the version of crypt that ships with HP-UX.</achievement>
+  				<achievement>Developed a cluster-aware subsystem that prevents users from creating more than one concurrent session</achievement>
+  				<achievement>Integrated the product with Netegrity SiteMinder.</achievement>
+  				<achievement>Developed a servlet filter framework in compliance with the Java Servlet Specification 2.3. This was to allow developers to write 2.3-compliant servlet filters that could be deployed in a Servlet Spec 2.2 container.</achievement>
+  				<achievement>Developed framework for implementing adapters, which communicated with banks' systems. Used framework to write adapters that used TCP/IP to exchange data with remote hosts.</achievement>
+			</achievements>		
+		</job>
+		
+		<job>
+			<jobtitle>Consultant</jobtitle>
+			<employer>Computer People, Inc</employer>
+			<location>
+			  <city>Atlanta</city>
+			  <state>GA</state>
+			  <country>USA</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>August</month>
+						<year>1996</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>August</month>
+						<year>1997</year>
+					</date>
+				</to>
+			</period>		
+			<description>
+				Placed with <link href="http://www.geac.com">Geac</link> and worked with C++, SQL, Rogue Wave.
+			</description>			
+		</job>
+		
+		<job>
+			<jobtitle>Senior Software Engineer</jobtitle>
+			<employer>LK Ltd</employer>
+			<location>
+			  <city>Castle Donington</city>
+			  <county>Derbyshire</county>
+			  <country>United Kingdom</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>August</month>
+						<year>1995</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>August</month>
+						<year>1996</year>
+					</date>
+				</to>
+			</period>		
+			<description>
+				Worked with C++, Win32 SDK, MFC, OLE.
+			</description>			
+		</job>
+		
+		<job>
+			<jobtitle>Consultant</jobtitle>
+			<employer>Parallax Solutions Ltd</employer>
+			<location>
+			  <city>Coventry</city>
+			  <county>West Midlands</county>
+			  <country>United Kingdom</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>May</month>
+						<year>1994</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>August</month>
+						<year>1995</year>
+					</date>
+				</to>
+			</period>		
+			<description>
+				Worked with C++, Windows SDK, Borland OWL.
+			</description>			
+		</job>
+		
+		<job>
+			<jobtitle>Software Team Leader</jobtitle>
+			<employer>Eastman Machine Company Ltd</employer>
+			<location>
+			  <city>Holmewood</city>
+			  <county>Derbyshire</county>
+			  <country>United Kingdom</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>November</month>
+						<year>1992</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>May</month>
+						<year>1994</year>
+					</date>
+				</to>
+			</period>		
+			<description>
+				Worked with C++, Windows SDK, MFC.
+			</description>			
+		</job>
+		
+		<job>
+			<jobtitle>Programmer</jobtitle>
+			<employer>Commercial Union plc</employer>
+			<location>
+			  <city>Whyteleafe</city>
+			  <county>Surrey</county>
+			  <country>United Kingdom</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>July</month>
+						<year>1991</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>November</month>
+						<year>1991</year>
+					</date>
+				</to>
+			</period>		
+			<description>
+				Worked with RPF and IBM mainframe assembly language.
+			</description>			
+		</job>
+		
+		<job>
+			<jobtitle>Industrial Trainee</jobtitle>
+			<employer>Commercial Union plc</employer>
+			<location>
+			  <city>Whyteleafe</city>
+			  <county>Surrey</county>
+			  <country>United Kingdom</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>June</month>
+						<year>1989</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>August</month>
+						<year>1990</year>
+					</date>
+				</to>
+			</period>		
+			<description>
+				Worked with Natural/ADABAS.
+			</description>			
+		</job>
+	</history>
+	
+	<academics>
+		<degrees>
+			<degree>
+				<level>BA (Hons)</level>
+				<major>Business Computing</major>
+				<date>
+					<year>1991</year>
+				</date>
+				<institution><link href="http://www.sunderland.ac.uk">University of Sunderland</link></institution>
+			</degree>
+		</degrees>
+  </academics>
+  
+  <skillarea>
+	<title>Current Skills</title>
+	<skillset>
+		<skill>SQL</skill>
+		<skill>Java</skill>
+		<skill>ANTLR</skill>
+		<skill>XML technologies</skill>
+		<skill>Groovy</skill>
+		<skill>EJB</skill>
+		<skill>JPA</skill>
+		<skill>servlets</skill>
+		<skill>HTML</skill>
+		<skill>Spring</skill>
+		<skill>JBoss</skill>
+		<skill>Hibernate</skill>
+		<skill>Oracle Coherence</skill>
+		<skill>contract-first web services</skill>
+	</skillset>
+	
+  </skillarea>
+
+</resume>
