@@ -27,6 +27,36 @@
 	<history>
 		<job>
 			<jobtitle>Senior Software Architect</jobtitle>
+			<employer><link href="http://www.altisource.com">Altisource</link></employer>
+			<location>
+			  <city>Dunwoody</city>
+			  <state>GA</state>
+			  <country>USA</country>
+			</location>			
+			<period>
+				<from>
+					<date>
+						<month>January</month>
+						<year>2012</year>
+					</date>
+				</from>
+				<to>
+	                <present/>				
+				</to>
+			</period>
+			<description>
+				Worked with Java, Hibernate, Spring, MySQL, XML, Git
+			</description>
+			<projects>
+				<project>REALFoundation&#8212;a set of frameworks to support multiple projects.</project>
+			</projects>
+			<achievements>
+			    <achievement>Made <link href="https://github.com/hibernate/hibernate-orm/pull/339">significant contribution</link> to Hibernate project.</achievement>
+			</achievements>
+		  
+		</job>
+		<job>
+			<jobtitle>Senior Software Architect</jobtitle>
 			<employer><link href="http://www.medquist.com">MedQuist, Inc</link></employer>
 			<location>
 			  <city>Norcross</city>
@@ -41,7 +71,10 @@
 					</date>
 				</from>
 				<to>
-					<present/>
+					<date>
+						<month>January</month>
+						<year>2012</year>
+					</date>
 				</to>
 			</period>
 			<description>
