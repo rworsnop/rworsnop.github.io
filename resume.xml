@@ -45,13 +45,24 @@
 				</to>
 			</period>
 			<description>
-				Worked with Java, Hibernate, Spring, MySQL, XML, Git
+				Worked with Java, Tomcat, Hibernate, JPA, Spring, MySQL, Git.
 			</description>
 			<projects>
-				<project>REALFoundation&#8212;a set of frameworks to support multiple projects.</project>
+				<project>REALFoundation&#8212;a set of frameworks to support a suite of next-generation projects.</project>
+				<project>REALServicing&#8212;a next-generation product intended to replace a legacy system with a linearly scalable solution.</project>
 			</projects>
 			<achievements>
-			    <achievement>Made <link href="https://github.com/hibernate/hibernate-orm/pull/339">significant contribution</link> to Hibernate project.</achievement>
+                            <achievement>Worked with a team of fellow architects to produce a linearly scalable suite of end-of-day batch processes.</achievement>
+			    <achievement>Built a framework on top of Hibernate filters which provided customizable, transparent data partitioning. Part of this 
+	effort required me to make a significant contribution to the Hibernate project.	See <link href="https://github.com/hibernate/hibernate-orm/pull/339">HHH-2394</link>.</achievement>
+			    <achievement>Created a token-based "log in as" mechanism that integrates with Spring Security.</achievement>
+			    <achievement>Created standard security features&#8212;Reset password, user lockout, password rules, etc.</achievement>
+			    <achievement>Extended logback so that log levels can be overriden in the database and per-user logging can be configured. This removes the need for an application restart in production. Also created simple Grails application to make the database changes.</achievement>			
+			    <achievement>Created a BPMS query layer over Activiti's. It is modeled on the Hibernate criteria API.</achievement>	
+			    <achievement>Created various simplifying wrappers around Spring services (e.g., email, file transfer).</achievement>
+			    <achievement>Integrated with 3rd-party address verification service, creating a general-purpose framework based on Spring's RestTemplate at the same time.</achievement>		
+			    <achievement>Expanded existing permission system to support inclusion/exlusion and group inheritance.</achievement>		
+			    <achievement>Created annotation-based, customizable auditing framework.</achievement>		
 			</achievements>
 		  
 		</job>
@@ -78,7 +89,7 @@
 				</to>
 			</period>
 			<description>
-				Worked with Java, JBoss, Hibernate, EJB, Spring, Oracle, ANTLR, Coherence, XML
+				Worked with Java, JBoss, Hibernate, EJB, Spring, Oracle, ANTLR, Coherence, XML.
 			</description>
 			<projects>
 				<project>DocQvoice&#8212;a voice capture system for medical transcription.</project>
