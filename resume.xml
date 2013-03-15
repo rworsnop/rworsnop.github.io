@@ -382,18 +382,13 @@
 	<skillset>
 		<skill>SQL</skill>
 		<skill>Java</skill>
-		<skill>ANTLR</skill>
 		<skill>XML technologies</skill>
-		<skill>Groovy</skill>
-		<skill>EJB</skill>
 		<skill>JPA</skill>
-		<skill>servlets</skill>
 		<skill>HTML</skill>
 		<skill>Spring</skill>
-		<skill>JBoss</skill>
+		<skill>Tomcat</skill>
 		<skill>Hibernate</skill>
-		<skill>Oracle Coherence</skill>
-		<skill>contract-first web services</skill>
+		<skill>Git</skill>
 	</skillset>
 	
   </skillarea>
