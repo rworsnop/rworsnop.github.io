@@ -1,0 +1,54 @@
+h1{
+	color: black;
+	font-size: 24pt;
+	font-family: arial;
+}
+
+h2{
+	font-size: 18pt;
+	color: #383838;
+	border-bottom: solid 1px #b0b0b0;
+	font-family: arial;
+}
+
+h3{
+	font-size: 14pt;
+	font-family: arial;
+}
+
+h4{
+	font-size: 12pt;
+	font-family: arial;
+	margin-bottom: -10px;
+}
+
+body{
+	margin-top: 0;	
+}
+
+html{
+	background-color:#d0d0d0; 
+}
+
+a{
+	color: #5555B9;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #5555F9;
+	border-bottom: 1px dotted;
+}
+
+div.mainPage{
+	font-family: Verdana;
+	font-size: 10pt;
+	background-color:white; 
+	color: #555555;
+	border-left: 1px solid #808080; 
+	border-right: 1px solid #808080; 
+	border-bottom: 1px solid #808080; 
+	padding: 10px 10px 10px 10px;
+	margin: 0px 20px 20px 20px;
+}
+
