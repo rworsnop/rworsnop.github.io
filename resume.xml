@@ -27,8 +27,8 @@
 	<history>
 
 		<job>
-			<jobtitle>Senior Architect</jobtitle>
-			<employer><link href="http://www.air-watch.com">AirWatch</link></employer>
+			<jobtitle>Staff Engineer II</jobtitle>
+			<employer><link href="https://www.vmware.com">VMware</link></employer>
 			<location>
 				<city>Sandy Springs</city>
 				<state>GA</state>
@@ -46,17 +46,21 @@
 				</to>
 			</period>
 			<description>
-				Worked with Java, Vert.x, Tomcat, Jetty, Spring, Git, MongoDB, RabbitMQ.
+				Worked with AWS, Java, Reactive Streams, Vert.x, Tomcat, Jetty, Spring, Git, MongoDB, PostgreSQL, RabbitMQ, Redis.
 			</description>
 			<projects>
-				<project><link href="http://www.air-watch.com/solutions/secure-messaging">AirWatch Chat</link>&#8212;a secure enterprise messaging application.</project>
+				<project>
+					<link href="https://www.vmware.com/products/workspace-one/mobile-flows.html">Mobile Flows</link>&#8212;an enterprise productivity application.
+				</project>
+				<project>
+					AirWatch Chat&#8212;a secure enterprise messaging application.
+				</project>
 			</projects>
 			<achievements>
+				<achievement>Designed the Mobile Flows server microservice architecture from the ground up. It's based on Spring (Cloud, Security, Boot, WebMVC, WebFlux, Project Reactor) and PostgreSQL and is deployed to AWS.</achievement>
 				<achievement>Designed the AirWatch Chat server architecture from the ground up. It's based on Vert.x, Spring Integration, Spring MVC, Spring Boot, MongoDB, and RabbitMQ.</achievement>
-		  	<achievement>Designed security scheme and all communication protocols for AirWatch Chat.</achievement>
-				<achievement>Evangelized new technologies, such as Vert.x and RxJava.</achievement>
-				<achievement>Led and mentored developers on the AirWatch Chat server team.</achievement>
-				<achievement>Provided architectural oversight for other AirWatch products.</achievement>
+				<achievement>Evangelized new technologies.</achievement>
+				<achievement>Led and mentored developers.</achievement>
 			</achievements>
 			</job>
 			<job>
@@ -89,23 +93,17 @@
 				<project>REALServicing&#8212;a next-generation product intended to replace a legacy system with a linearly scalable solution.</project>
 			</projects>
 			<achievements>
-				<achievement>Worked with a team of fellow architects to produce a linearly scalable suite of end-of-day batch processes.</achievement>
 				<achievement>Built a framework on top of Hibernate filters which provided customizable, transparent data partitioning. Part of this
 					effort required me to make a significant contribution to the Hibernate project.	See <link href="https://github.com/hibernate/hibernate-orm/pull/339">HHH-2394</link>.</achievement>
-					<achievement>Created a token-based "log in as" mechanism that integrates with Spring Security.</achievement>
-					<achievement>Created standard security features&#8212;reset password, user lockout, password rules, etc.</achievement>
-					<achievement>Extended logback so that log levels can be overriden in the database and per-user logging can be configured. This removes the need for an application restart in production. Also created simple Grails application to make the database changes.</achievement>
-					<achievement>Created a BPMS query layer over Activiti's. It is modeled on the Hibernate criteria API.</achievement>
-					<achievement>Created various simplifying wrappers around Spring services (e.g., email, file transfer).</achievement>
-					<achievement>Integrated with 3rd-party address verification service, creating a general-purpose framework based on Spring's RestTemplate at the same time.</achievement>
-					<achievement>Expanded existing permission system to support inclusion/exlusion and group inheritance.</achievement>
-					<achievement>Created annotation-based, customizable auditing framework.</achievement>
+				<achievement>Created standard security features&#8212;reset password, user lockout, password rules, etc.</achievement>
+				<achievement>Extended logback so that log levels can be overriden in the database and per-user logging can be configured. This removes the need for an application restart in production. Also created simple Grails application to make the database changes.</achievement>
+				<achievement>Created annotation-based, customizable auditing framework.</achievement>
 				</achievements>
 
 			</job>
 		<job>
 			<jobtitle>Senior Software Architect</jobtitle>
-			<employer><link href="http://www.medquist.com">MedQuist, Inc</link></employer>
+			<employer><link href="https://mmodal.com">MedQuist, Inc</link></employer>
 			<location>
 			  <city>Norcross</city>
 			  <state>GA</state>
@@ -135,269 +133,13 @@
 			<achievements>
 			    <achievement>Produced roadmap for streamlining DocQvoice and merging with main document workflow system.</achievement>
 			    <achievement>Defined the middleware architecture for DocQment myWAY.</achievement>
-				<achievement>Oversaw and participated in the conversion of an "on-premise" version of DocQvoice to a clustered data center version that is required to process in excess of 100,000
-						transcription jobs per day.</achievement>
-				<achievement>Delivered technical "lunch &amp; learn" presentations on unit testing, Spring, Acegi (now Spring Security), Contract-first web services, Hibernate, and Oracle Coherence.</achievement>
-				<achievement>Introduced new technologies to the organization; e.g., Spring.</achievement>
-				<achievement>Acted as a mentor to other members of the team.</achievement>
-				<achievement>Developed Hibernate-based framework that silos data by transparently modifiying criteria queries.</achievement>
-				<achievement>Developed framework that provides a clustered middle-layer equivalent of HTTP sessions.</achievement>
-				<achievement>Developed framework that creates the illusion of creating queryable entities on the fly.</achievement>
-				<achievement>Designed an automatic sign-on system, which uses digital signatures to allow trusted third-party applications to authenticate users without credentials.</achievement>
-				<achievement>Investigated and resolved production issues such as JVM crashes and memory leaks.</achievement>
-				<achievement>Interviewed candidates for development positions.</achievement>
-				<achievement>Took the initiative to create a wiki, which is now used as a company-wide knowledge base.</achievement>
+					<achievement>Oversaw and participated in the conversion of an on-premise version of DocQvoice to a clustered data center version that is required to process in excess of 100,000
+							transcription jobs per day.</achievement>
+					<achievement>Delivered technical "lunch &amp; learn" presentations on unit testing, Spring, Acegi (now Spring Security), Contract-first web services, Hibernate, and Oracle Coherence.</achievement>
+					<achievement>Introduced new technologies to the organization; e.g., Spring.</achievement>
+					<achievement>Acted as a mentor to other members of the team.</achievement>
 			</achievements>
 
-		</job>
-		<job>
-			<jobtitle>Senior Software Developer</jobtitle>
-			<employer><link href="http://www.iss.net">Internet Security Systems, Inc</link></employer>
-			<location>
-			  <city>Sandy Springs</city>
-			  <state>GA</state>
-			  <country>USA</country>
-			</location>
-			<period>
-				<from>
-					<date>
-						<month>October</month>
-						<year>2004</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>April</month>
-						<year>2006</year>
-					</date>
-				</to>
-			</period>
-			<description>
-				Worked with JBoss, Hibernate, EJB, Spring, MS SQL Server, RMI
-			</description>
-			<projects>
-				<project>RealSecure SiteProtector&#8212;a three-tier JEE application responsible for monitoring security events.</project>
-			</projects>
-			<achievements>
-				<achievement>Led a team responsible for adding a permissions system to SiteProtector.
-					As well as being a supervisory role, this involved the general design of the UI and the detailed design
-					of the server components.</achievement>
-				<achievement>Introduced new technologies to the organization; e.g., JBoss, Hibernate.</achievement>
-				<achievement>Acted as a mentor to other members of the team.</achievement>
-				<achievement>Interviewed candidates for development positions.</achievement>
-				<achievement>Delivered technical presentations on JBoss, EJB 3.0, and the Java 5.0 concurrency APIs.</achievement>
-				<achievement>Contributed to the jTDS project. jTDS is an open-source JDBC driver.
-					My contribution was to add SSL, which was required by Internet Security Systems.</achievement>
-				<achievement>Developed a framework, using JBoss AOP, for using Hibernate in a fat-client three-tier environment. The problem it solves is
-					that of lazy-loading over process boundaries.</achievement>
-			</achievements>
-		</job>
-
-		<job>
-			<jobtitle>Technical Architect</jobtitle>
-			<employer><link href="http://www.s1.com">S1 Corporation, Inc</link></employer>
-			<location>
-			  <city>Atlanta</city>
-			  <state>GA</state>
-			  <country>USA</country>
-			</location>
-			<period>
-				<from>
-					<date>
-						<month>August</month>
-						<year>1997</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>October</month>
-						<year>2004</year>
-					</date>
-				</to>
-			</period>
-			<description>
-				Worked with Java, Java Web Start, WebLogic, WebSphere, DB2, XML, Servlets, EJBs, JSPs, Struts, RMI, SQL, C++, Fort&#233;
-			</description>
-			<projects>
-				<project>Enterprise Teller&#8212;a three-tier JEE application used by bank tellers.</project>
-				<project>Architecture team&#8212;developed various frameworks to support application teams.</project>
-				<project>Virtual Investments&#8212;a web-based securities trading application.</project>
-			</projects>
-			<achievements>
-				<achievement>Developed a subsystem that allows EJBs to be acquired, and their methods invoked, via an HTTP tunnel.</achievement>
-				<achievement>Developed a store-and-forward subsystem that transparently buffers EJB calls when the server is unavailable.</achievement>
-				<achievement>Created a subsystem that allows peer-to-peer discovery and communication between thick clients.</achievement>
-				<achievement>Developed a provider framework to allow developers to plug in modules for password encryption. The architecture included out-of-the-box providers for salted SHA-1, salted MD5, and bigcrypt. The SHA-1 and MD5 providers were based on JCA.</achievement>
-  				<achievement>Developed powerful and highly extensible authorization framework for the business layer of the product.</achievement>
-				<achievement>As a member of the architecture team, advised application teams and professional services on matters related to security.</achievement>
-				<achievement>Worked through many tough problems; for example, modifying a Java version of crypt so that its handling of invalid salts is compatible with the version of crypt that ships with HP-UX.</achievement>
-  				<achievement>Developed a cluster-aware subsystem that prevents users from creating more than one concurrent session</achievement>
-  				<achievement>Integrated the product with Netegrity SiteMinder.</achievement>
-  				<achievement>Developed a servlet filter framework in compliance with the Java Servlet Specification 2.3. This was to allow developers to write 2.3-compliant servlet filters that could be deployed in a Servlet Spec 2.2 container.</achievement>
-  				<achievement>Developed framework for implementing adapters, which communicated with banks' systems. Used framework to write adapters that used TCP/IP to exchange data with remote hosts.</achievement>
-			</achievements>
-		</job>
-
-		<job>
-			<jobtitle>Consultant</jobtitle>
-			<employer>Computer People, Inc</employer>
-			<location>
-			  <city>Atlanta</city>
-			  <state>GA</state>
-			  <country>USA</country>
-			</location>
-			<period>
-				<from>
-					<date>
-						<month>August</month>
-						<year>1996</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>August</month>
-						<year>1997</year>
-					</date>
-				</to>
-			</period>
-			<description>
-				Placed with <link href="http://www.geac.com">Geac</link> and worked with C++, SQL, Rogue Wave.
-			</description>
-		</job>
-
-		<job>
-			<jobtitle>Senior Software Engineer</jobtitle>
-			<employer>LK Ltd</employer>
-			<location>
-			  <city>Castle Donington</city>
-			  <county>Derbyshire</county>
-			  <country>United Kingdom</country>
-			</location>
-			<period>
-				<from>
-					<date>
-						<month>August</month>
-						<year>1995</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>August</month>
-						<year>1996</year>
-					</date>
-				</to>
-			</period>
-			<description>
-				Worked with C++, Win32 SDK, MFC, OLE.
-			</description>
-		</job>
-
-		<job>
-			<jobtitle>Consultant</jobtitle>
-			<employer>Parallax Solutions Ltd</employer>
-			<location>
-			  <city>Coventry</city>
-			  <county>West Midlands</county>
-			  <country>United Kingdom</country>
-			</location>
-			<period>
-				<from>
-					<date>
-						<month>May</month>
-						<year>1994</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>August</month>
-						<year>1995</year>
-					</date>
-				</to>
-			</period>
-			<description>
-				Worked with C++, Windows SDK, Borland OWL.
-			</description>
-		</job>
-
-		<job>
-			<jobtitle>Software Team Leader</jobtitle>
-			<employer>Eastman Machine Company Ltd</employer>
-			<location>
-			  <city>Holmewood</city>
-			  <county>Derbyshire</county>
-			  <country>United Kingdom</country>
-			</location>
-			<period>
-				<from>
-					<date>
-						<month>November</month>
-						<year>1992</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>May</month>
-						<year>1994</year>
-					</date>
-				</to>
-			</period>
-			<description>
-				Worked with C++, Windows SDK, MFC.
-			</description>
-		</job>
-
-		<job>
-			<jobtitle>Programmer</jobtitle>
-			<employer>Commercial Union plc</employer>
-			<location>
-			  <city>Whyteleafe</city>
-			  <county>Surrey</county>
-			  <country>United Kingdom</country>
-			</location>
-			<period>
-				<from>
-					<date>
-						<month>July</month>
-						<year>1991</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>November</month>
-						<year>1991</year>
-					</date>
-				</to>
-			</period>
-			<description>
-				Worked with RPF and IBM mainframe assembly language.
-			</description>
-		</job>
-
-		<job>
-			<jobtitle>Industrial Trainee</jobtitle>
-			<employer>Commercial Union plc</employer>
-			<location>
-			  <city>Whyteleafe</city>
-			  <county>Surrey</county>
-			  <country>United Kingdom</country>
-			</location>
-			<period>
-				<from>
-					<date>
-						<month>June</month>
-						<year>1989</year>
-					</date>
-				</from>
-				<to>
-					<date>
-						<month>August</month>
-						<year>1990</year>
-					</date>
-				</to>
-			</period>
-			<description>
-				Worked with Natural/ADABAS.
-			</description>
 		</job>
 	</history>
 
@@ -406,9 +148,6 @@
 			<degree>
 				<level>BA (Hons)</level>
 				<major>Business Computing</major>
-				<date>
-					<year>1991</year>
-				</date>
 				<institution><link href="http://www.sunderland.ac.uk">University of Sunderland</link></institution>
 			</degree>
 		</degrees>
@@ -419,15 +158,12 @@
 	<skillset>
 
 		<skill>Java</skill>
-		<skill>Vert.x</skill>
-		<skill>RxJava</skill>
+		<skill>Reactive Streams</skill>
 		<skill>Spring</skill>
-		<skill>Tomcat</skill>
+		<skill>R2DBC</skill>
 		<skill>Hibernate</skill>
 		<skill>JPA</skill>
-		<skill>Git</skill>
-		<skill>MongoDB</skill>
-		<skill>RabbitMQ</skill>
+		<skill>AWS</skill>
 
 	</skillset>
 
