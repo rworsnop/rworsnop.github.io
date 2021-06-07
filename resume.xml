@@ -46,9 +46,15 @@
 				</to>
 			</period>
 			<description>
-				Worked with AWS, Java, Reactive Streams, Vert.x, Tomcat, Jetty, Spring, Git, MongoDB, PostgreSQL, RabbitMQ, Redis.
+				Worked with AWS, Java, Kotlin, Reactive Streams, Vert.x, Tomcat, Spring, Git, MongoDB, PostgreSQL, RabbitMQ, Redis.
 			</description>
 			<projects>
+				<project>
+					Workspace ONE Campus&#8212;a workplace hot desking application.
+				</project>
+				<project>
+					Workspace ONE Proximity&#8212;a COVID-19 Bluetooth-based contact tracing application.
+				</project>
 				<project>
 					<link href="https://www.vmware.com/products/workspace-one/mobile-flows.html">Mobile Flows</link>&#8212;an enterprise productivity application.
 				</project>
@@ -57,8 +63,7 @@
 				</project>
 			</projects>
 			<achievements>
-				<achievement>Designed the Mobile Flows server microservice architecture from the ground up. It's based on Spring (Cloud, Security, Boot, WebMVC, WebFlux, Project Reactor) and PostgreSQL and is deployed to AWS.</achievement>
-				<achievement>Designed the AirWatch Chat server architecture from the ground up. It's based on Vert.x, Spring Integration, Spring MVC, Spring Boot, MongoDB, and RabbitMQ.</achievement>
+				<achievement>Architected and led the server-side development of a number of projects</achievement>
 				<achievement>Evangelized new technologies.</achievement>
 				<achievement>Led and mentored developers.</achievement>
 			</achievements>
@@ -158,9 +163,10 @@
 	<skillset>
 
 		<skill>Java</skill>
+		<skill>Kotlin</skill>
 		<skill>Reactive Streams</skill>
+		<skill>Vert.x</skill>
 		<skill>Spring</skill>
-		<skill>R2DBC</skill>
 		<skill>PostgreSQL</skill>
 		<skill>Hibernate</skill>
 		<skill>JPA</skill>
