@@ -50,6 +50,9 @@
 			</description>
 			<projects>
 				<project>
+					<link href="https://www.vmware.com/products/workspace-one/access.html">Workspace ONE Access</link>&#8212;an identity broker.
+				</project>
+				<project>
 					Workspace ONE Campus&#8212;a workplace hot desking application.
 				</project>
 				<project>
@@ -63,7 +66,7 @@
 				</project>
 			</projects>
 			<achievements>
-				<achievement>Architected and led the server-side development of a number of projects</achievement>
+				<achievement>Architected and led the server-side development of a number of projects.</achievement>
 				<achievement>Evangelized new technologies.</achievement>
 				<achievement>Led and mentored developers.</achievement>
 			</achievements>
